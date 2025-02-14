@@ -4,7 +4,7 @@
 
 int main() {
     int n, i, k, j;
-    float pivot, term, a[10][11]; // Augmented matrix (n x (n+1))
+    float pivot, term, a[10][11]; 
 
     printf("Enter the dimension of the system of equations:\n");
     scanf("%d", &n);
@@ -44,7 +44,7 @@ int main() {
     // Printing the solution
     printf("Solution:\n");
     for (i = 0; i < n; i++) {
-        printf("x%d = %f\t", i + 1, a[i][n]);  // RHS column contains solutions
+        printf("x%d = %f\t", i + 1, a[i][n]);  
     }
 
     return 0;
