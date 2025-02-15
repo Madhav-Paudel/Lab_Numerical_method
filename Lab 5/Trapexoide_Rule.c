@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<math.h>
 
-#define f(x) ((x) + 2)  // Fix: Added parentheses to ensure correct evaluation
+#define f(x) ((x) + 2) 
 
 int main()
 {
